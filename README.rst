@@ -20,4 +20,6 @@ Options
 There are two CSS attributes you can use. By default, font-style will be italic and color will be #ccc. However, to override those options, you could do the following.
 
 ::
+
     $("form").placeholder({'font-style':'normal', 'color':'#f2f2f2'});
+    
