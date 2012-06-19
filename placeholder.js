@@ -14,11 +14,13 @@
 
             if($(this).attr("placeholder") && $(this).val().length == 0){
                 $(this).val($(this).attr("placeholder")).css({'font-style':$.fn.placeholder.defaults.fontStyle, 
-                    'color':$.fn.placeholder.defaults.watermarkColor});
+                    'color':$.fn.placeholder.defaults.watermarkColor}).data('init-placeholder', 'true');
             }
 
             $(this).on("focus", function(e){
-                $(this).val("").css({'font-style':'normal', 'color':$originalColor});
+                if($(this).data('init-placeholder')=='true'){
+                    $(this).val("").css({'font-style':'normal', 'color':$originalColor}).removeData("init-placeholder");
+                }
             });
         });
 	};
