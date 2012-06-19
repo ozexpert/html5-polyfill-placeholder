@@ -25,3 +25,9 @@ There are two CSS attributes you can use. By default, font-style will be italic 
 
     $("form").placeholder({'font-style':'normal', 'color':'#f2f2f2'});
     
+-------
+License
+-------
+.. _MIT: http://www.opensource.org/licenses/mit-license.php
+
+MIT_ license
