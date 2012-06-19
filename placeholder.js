@@ -1,6 +1,6 @@
 /*
  * Author: Young K. Park (youngkeunpark@gmail.com)
- * example usage: $("form").placeholder();
+ * example usage: $("form").placeholder({'font-style':'normal', 'color':'#f2f2f2'});
 */
 
 (function($){
