@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example usage of placholder.js</title>
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>
+        <script src="placeholder.js"></script>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Your Name" />
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea placeholder="Enter any message" name="message" id="message"></textarea>
+            </div>
+            <div>
+                <button type="submit" name="submit">Submit</button>
+            </div>
+        </form>
+        <script>
+            $(function(){
+                $("form").placeholder();
+            });
+        </script>
+    </body>
+</html>
