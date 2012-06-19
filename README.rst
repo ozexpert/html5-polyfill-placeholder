@@ -1,7 +1,9 @@
 ========================================
 HTML 5 polyfill for placholder attribute
 ========================================
-This is a jQuery plugin to use with Modernizr_ for older browsers to behave HTML 5 placeholder attribute. Must be used with Modernizr_ to test placeholder attribute, but it doesn't do harm if checking for placeholder attribute is not there.
+This is a jQuery plugin to use with Modernizr_ for older browsers to behave HTML 5 placeholder attribute. Must be used with Modernizr_ to test placeholder attribute, but it doesn't do any harm if checking for placeholder attribute is not there :-).
+
+HTML 5 placholder attribute generates nicely embedded watermark effect to your form fields like input, or textarea. Only the latest browsers supports this effect, but using placeholder.js plugin with Modernizr will make similar effect for the older browsers. 
 
 .. _Modernizr: http://modernizr.com
 
