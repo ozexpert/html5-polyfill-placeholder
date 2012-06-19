@@ -1,0 +1,7 @@
+# Example usage in js
+
+$(function(){
+	if(!Modernizr.placeholder){
+		$("form").placeholder();
+	}
+});
