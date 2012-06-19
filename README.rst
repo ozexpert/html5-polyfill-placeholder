@@ -1,7 +1,7 @@
 ========================================
 HTML 5 polyfill for placholder attribute
 ========================================
-Modernizr_.modernizr.com
+Should be used with Modernizr_.modernizr.com
 
 .. _Modernizr: http://modernizr.com
 
